@@ -19,7 +19,6 @@ Return:
   data vector stems.
 %}
 function [X, y] = generate_gauss_classes(m,S,P,N)
-    randn('seed', 0);
     [~, c] = size(m);
     X = [];
     y = [];
